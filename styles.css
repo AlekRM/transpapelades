@@ -29,7 +29,7 @@ nav.portada-nav {
 }
 
 nav.portada-nav ul {
-  margin-right: auto;
+  margin-left: auto;
   display: flex;
   flex-direction: row;
   list-style: none;
