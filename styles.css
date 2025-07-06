@@ -26,6 +26,8 @@ body {
 
 nav.portada-nav {
   margin-left: auto;
+  display: flex;
+  margin-right: 25px;
 }
 
 nav.portada-nav ul {
