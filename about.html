@@ -1,53 +1,327 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Transpapelades - acerca de</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>
+    Transpapelades
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link href="styles.css" rel="stylesheet" crossorigin="anonymous">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="favicon.ico" />
 </head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+
+<body class="bg-white">
+  <header class="container mx-auto px-4 py-6">
+    <div class="flex justify-between items-start">
+      <div>
+        <h1 class="font-bold trans-pink" style="max-width: 100vw; font-size: 11.5vw !important; line-height: 2.5rem;">
+          transpapelades
+        </h1>
+        <span class="text-3xl font-bold mt-16 absolute w-2/3">
+          <img src="images/logo.svg" class="w-1/6">
+        </span>
       </div>
     </div>
-  </nav>
+    <div class="flex justify-between items-center">
+      <div class="w-full flex justify-between items-center flex-col	">
+        <img class="w-2/3" height="400" src="images/carpeta.svg" width="600" />
+        <div class="mt-0 flex flex-row justify-between w-full" style="margin-top: -20px;">
+          <h2 class="text-lg font-medium black leading-10 w-1/2 font-bold">
+            Una guía trans* para la supervivencia administrativa
+          </h2>
+          <button class="circle-button">
+            <a class="bg-black text-white px-3 py-1 text-sm rounded-full inline-block mt-2" href="guide.html">
+              ver guía
+            </a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <hr class="hr-styled" />
+  <section class="container mx-auto px-4 py-6">
+    <div class="flex flex-col md:flex-row gap-x-32">
+      <div class="md:w-1/3 mt-6 md:mt-0">
+        <img alt="Illustration of various administrative documents and papers in purple line art style" class="w-full"
+          height="400" src="images/patas.svg"
+          width="400" />
+      </div>
+      <div class="md:w-2/3">
+        <h2 class="text-lg font-medium black leading-10 font-bold text-right mb-16">
+          Esta guía está orientada a personas trans* que viven en la comunidad de Madrid y quieren realizar un proceso
+          de transición médica o legal
+        </h2>
+        <h3 class="text-right">
+          Pretende reunir la información necesaria para realizar y facilitar los procesos administrativos
+        </h3>
+        <div class="grid grid-cols-2 gap-4 text-xs mt-8">
+          <div class="box-logo-preview">
+            <p>
+              El cambio de nombre y mención de sexo en documentos oficiales puede ser un proceso largo y complicado.
+              Esta guía pretende facilitar estos trámites.
+            </p>
+          </div>
+          <div class="box-logo-preview">
+            <p>
+              Información útil sobre el acceso a tratamientos hormonales, cirugías y otros servicios médicos
+              relacionados con la transición.
+            </p>
+          </div>
+          <div class="box-logo-preview">
+            <p>
+              La guía incluye detalles específicos sobre los requisitos legales, formularios necesarios y pasos a seguir
+              para cada proceso administrativo.
+            </p>
+          </div>
+          <div class="box-logo-preview">
+            <p>
+              También tiene información sobre recursos comunitarios, asociaciones y grupos de apoyo disponibles en la
+              Comunidad de Madrid.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <section class="bg-trans-pink py-12 px-4">
+    <div class="container mx-auto flex flex-col md:flex-row">
+      <div class="flex flex-col justify-between">
+        <h2 class="text-xl font-bold text-white mb-8">
+          Conoce los recursos a tu alcance
+        </h2>
+        <div class="flex flex-col text-left">
+          <p class="text-left">Conoce asociaciones y grupos trans* y LGTBIQ+ en la Comunidad de Madrid</p>
+          <button class="transparent-button">
+            <a>Ir a Asociaciones</a>
+          </button>
+        </div>
+      </div>
+      <div class="relative h-64 mb-8">
+        <img alt="Illustration of a folder structure with tabs for different sections of the guide"
+          class="w-full h-full object-contain" height="300"
+          src="https://replicate.delivery/xezq/if2ZWRIH44TGbKvx26SqZTFMDYOsSjzDKfswgAY0zKWyZSepA/out-0.png"
+          width="800" />
+        <div class="absolute bottom-0 left-0 w-full flex justify-center">
+          <div class="text-center">
+            <img alt="Transpapelades logo" class="h-8" height="50"
+              src="https://replicate.delivery/xezq/bptLB0WIh7bHDhszXQXbOdVF9suScSmtZpk0nxFhbSmcmkPF/out-0.png"
+              width="200" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <h1>Acerca de</h1>
+  <section class="container mx-auto px-4 py-6">
+    <h2 class="text-xl font-bold trans-pink mb-4">
+      Conoce los recursos a tu alcance
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="bg-trans-pink p-6 text-white">
+        <p class="text-sm mb-4">
+          La guía incluye información detallada sobre los recursos disponibles en Madrid para personas trans*
+        </p>
+        <a class="bg-white text-black px-3 py-1 text-xs rounded-full inline-block mt-2" href="#">
+          Ver Recursos
+        </a>
+      </div>
+      <div class="bg-gray-200 p-6 flex">
+        <img alt="Black and white image showing silhouettes of diverse people" class="w-1/2" height="200"
+          src="https://replicate.delivery/xezq/npeqQLJTxxwmSyagPC14cZJ4QuiTAH5et5GjK1CplQEyZSepA/out-0.png"
+          width="300" />
+        <div class="w-1/2 pl-4">
+          <a class="bg-black text-white px-3 py-1 text-xs rounded-full inline-block mt-2" href="#">
+            Detalles
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container mx-auto px-4 py-10">
+    <h2 class="text-xl font-bold trans-pink mb-6">
+      ¿Cómo funciona?
+    </h2>
+    <div class="flex flex-col md:flex-row gap-10">
+      <div class="md:w-1/3">
+        <img alt="Illustration of a document with lines and a signature in purple line art style" class="w-full"
+          height="300" src="https://replicate.delivery/xezq/cBjqnS8UK7ZED1coIhfnzRsL0eKPa0wTKmNidn8sW6LyZSepA/out-0.png"
+          width="300" />
+      </div>
+      <div class="md:w-2/3">
+        <div class="mb-10">
+          <h3 class="text-xl font-bold trans-pink mb-2">
+            Las secciones
+          </h3>
+          <p class="text-sm mb-4">
+            Nuestra guía está organizada en secciones temáticas para facilitar la navegación y el acceso a la
+            información que necesitas. Cada sección aborda un aspecto específico del proceso administrativo:
+          </p>
+          <ul class="list-disc pl-5 text-sm mb-4">
+            <li>
+              Cambio de nombre y género
+            </li>
+            <li>
+              Acceso a tratamientos
+            </li>
+            <li>
+              Recursos y apoyos
+            </li>
+            <li>
+              Derechos y legislación
+            </li>
+          </ul>
+          <a class="bg-black text-white px-3 py-1 text-xs rounded-full inline-block mt-2" href="#">
+            Ver secciones
+          </a>
+        </div>
+        <div class="mb-10">
+          <h3 class="text-xl font-bold trans-pink mb-2">
+            El buscador
+          </h3>
+          <p class="text-sm mb-4">
+            Utiliza nuestro buscador para encontrar rápidamente información específica sobre cualquier trámite o
+            proceso. Puedes buscar por palabras clave como "DNI", "pasaporte", "seguridad social" o cualquier otro
+            término relacionado con los procedimientos administrativos que necesites realizar.
+          </p>
+          <a class="bg-black text-white px-3 py-1 text-xs rounded-full inline-block mt-2" href="#">
+            Buscar
+          </a>
+        </div>
+        <div class="mb-10">
+          <h3 class="text-xl font-bold trans-pink mb-2">
+            El foro
+          </h3>
+          <p class="text-sm mb-4">
+            Conecta con otras personas trans* que están pasando o han pasado por los mismos procesos. En nuestro foro
+            puedes compartir experiencias, resolver dudas y encontrar apoyo de la comunidad. También contamos con la
+            participación de profesionales que pueden orientarte en cuestiones específicas.
+          </p>
+          <a class="bg-black text-white px-3 py-1 text-xs rounded-full inline-block mt-2" href="#">
+            Al foro
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-trans-pink py-12 px-4">
+    <div class="container mx-auto">
+      <h2 class="text-xl font-bold text-white mb-8">
+        Explora la guía
+      </h2>
+      <div class="relative h-64 mb-8">
+        <img alt="Illustration of a folder structure with tabs for different sections of the guide"
+          class="w-full h-full object-contain" height="300"
+          src="https://replicate.delivery/xezq/if2ZWRIH44TGbKvx26SqZTFMDYOsSjzDKfswgAY0zKWyZSepA/out-0.png"
+          width="800" />
+        <div class="absolute bottom-0 left-0 w-full flex justify-center">
+          <div class="text-center">
+            <img alt="Transpapelades logo" class="h-8" height="50"
+              src="https://replicate.delivery/xezq/bptLB0WIh7bHDhszXQXbOdVF9suScSmtZpk0nxFhbSmcmkPF/out-0.png"
+              width="200" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container mx-auto px-4 py-10">
+    <h2 class="text-3xl font-bold trans-pink mb-6">
+      Disclaimer
+    </h2>
+    <p class="text-xs mb-6">
+      Esta guía se ha desarrollado como una herramienta informativa para facilitar los procesos administrativos a
+      personas trans* en Madrid. La información contenida puede estar sujeta a cambios debido a modificaciones en la
+      legislación o en los procedimientos administrativos. Recomendamos verificar siempre la información con las fuentes
+      oficiales correspondientes.
+    </p>
+    <p class="text-xs mb-6">
+      Los autores de esta guía no se hacen responsables de posibles errores u omisiones, ni de las consecuencias que
+      pudieran derivarse del uso de la información proporcionada. Esta guía no sustituye el asesoramiento legal o médico
+      profesional.
+    </p>
+    <p class="text-xs mb-6">
+      Si encuentras algún error o tienes sugerencias para mejorar esta guía, por favor contáctanos.
+    </p>
+    <a class="bg-black text-white px-3 py-1 text-xs rounded-full inline-block mt-2" href="#">
+      Más información
+    </a>
+    <div class="flex justify-end mt-4">
+      <img alt="Illustration of a hand icon" class="h-12 mr-4" height="50"
+        src="https://replicate.delivery/xezq/dY403YlUks4eQqWyf8o9keKZ6HWjChJHzdeCx3rNynMKnJ5TB/out-0.png" width="50" />
+      <img alt="Illustration of a person icon" class="h-12" height="50"
+        src="https://replicate.delivery/xezq/v0u2TqKXyh5fDiyikqKfGONwranlo0ddPXBBo2CVtYKyZSepA/out-0.png" width="50" />
+    </div>
+  </section>
+  <footer class="container mx-auto px-4 py-10 border-t border-gray-300">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div>
+        <h3 class="font-bold mb-4">
+          ¡Colabora!
+        </h3>
+        <p class="text-xs mb-4">
+          Si quieres contribuir a mejorar esta guía, compartir tu experiencia o ayudar a otras personas trans* en sus
+          procesos administrativos, ponte en contacto con nosotros. Toda colaboración es bienvenida.
+        </p>
+      </div>
+      <div>
+        <h3 class="font-bold mb-4">
+          Contacta
+        </h3>
+        <div class="border-b border-black pb-1 mb-4">
+          <input class="w-full outline-none text-sm" placeholder="Email" type="text" />
+        </div>
+      </div>
+      <div>
+        <h3 class="font-bold mb-4">
+          Proyecto
+        </h3>
+        <p class="text-xs mb-2">
+          Transpapelades
+        </p>
+        <p class="text-xs mb-2">
+          Madrid, 2023
+        </p>
+        <div class="mt-4">
+          <img alt="Transpapelades logo" class="h-6" height="30"
+            src="https://replicate.delivery/xezq/bptLB0WIh7bHDhszXQXbOdVF9suScSmtZpk0nxFhbSmcmkPF/out-0.png"
+            width="150" />
+        </div>
+      </div>
+      <div>
+        <h3 class="font-bold mb-4">
+          Redes
+        </h3>
+        <p class="text-xs mb-2">
+          Instagram
+        </p>
+        <p class="text-xs mb-2">
+          Twitter
+        </p>
+        <p class="text-xs mb-2">
+          Facebook
+        </p>
+        <div class="mt-4">
+          <img alt="Circular black logo" class="h-10" height="50"
+            src="https://replicate.delivery/xezq/6HZk4eYdoXVITqTo7kmCAkbsMLsC7kOOC8dpDkncJFfyZSepA/out-0.png"
+            width="50" />
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="bg-trans-pink py-6 px-4">
+    <div class="container mx-auto">
+      <h1 class="text-4xl font-bold text-white">
+        transpapelades
+      </h1>
+    </div>
+  </div>
 </body>
+
 </html>
