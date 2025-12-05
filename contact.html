@@ -1,53 +1,211 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Transpapelades - contacto</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>
+    Transpapelades
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link href="styles.css" rel="stylesheet" crossorigin="anonymous">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="favicon.ico" />
 </head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+
+<body class="bg-white">
+
+
+  <nav class="bg-white">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="images/logo.svg" class="h-8" alt="Flowbite Logo" />
+      </a>
+      <button data-collapse-toggle="navbar-default" type="button"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 1h15M1 7h15M1 13h15" />
+        </svg>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul
+          class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white text-black">
+          <li>
+            <a href="index.html"
+              class="block py-2 px-3 text-black bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-black"
+              aria-current="page">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+          <li>
+            <a target="_blank" href="docs/memoria_transpapelades.pdf"
+              class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent">La
+              guía</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+          <li>
+            <a href="#"
+              class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent">Acerca
+              de</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <li>
+            <a href="#"
+              class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent">Contacto</a>
           </li>
         </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
       </div>
     </div>
   </nav>
 
-  <h1>Contacto</h1>
+  <header class="mx-auto px-16 py-6">
+    <h1 class="font-bold trans-pink" style="max-width: 100vw; font-size: 11.5vw !important; line-height: 2.5rem;">
+      Contacto
+    </h1>
+  </header>
+  <hr class="hr-styled">
+
+  <section class="mx-auto px-16 py-12">
+    <div class="flex flex-col md:flex-row gap-x-32">
+      <div class="w-1/3 mt-6 md:mt-0 text-center">
+        <svg width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="21.9856" cy="21" r="21" fill="black" />
+        </svg>
+      </div>
+      <div class="w-2/3">
+        <h2 class="font-medium black text-2xl font-bold text-left mb-16">
+          ¡Hola! Para cualquier cosa que necesites, no dudes en contactar.
+        </h2>
+        <div class="grid grid-cols-2 gap-4 text-xs mt-8">
+          <div class="flex flex-col">
+            <img src="images/hands-heart.svg" height="100" width="100" />
+            <h3 class="text-xl leading-loose mb-4"> Únete al equipo</h3>
+            <p>
+              Si quieres colaborar en la recogida de información para la guía o en su desarrollo, contacta por redes o
+              email.
+            </p>
+          </div>
+          <div class="flex flex-col">
+            <img src="images/hands-thumbs-up.png" height="100" width="100" />
+            <h3 class="text-xl leading-loose mb-4"> Colabora</h3>
+            <p>
+              Si quieres aportar tu experiencia en cualquiera de los procesos, puedes rellenar la encuesta. </p>
+          </div>
+          <div class="flex flex-col">
+            <img src="images/hands-pencil.png" height="120" width="120"
+              style="margin-left: -28px; transform: rotate(20deg);" />
+            <h3 class="text-xl leading-loose mb-4"> Informa</h3>
+            <p>
+              Si tienes información acerca de cualquier ámbito, has visto algún error o tienes alguna duda, no dudes en
+              contactar. </p>
+          </div>
+          <div class="flex flex-col">
+            <img src="images/hands-bowl.svg" height="100" width="100" />
+            <h3 class="text-xl leading-loose mb-4"> Dona</h3>
+            <p>
+              El hosting de este sitio web cuesta 5€/mes, si quieres ayudarme a mantenerlo, puedes donar al siguiente
+              enlace. </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <hr class="hr-styled" />
+  <section class="container mx-auto px-4 py-12">
+    <div class="flex flex-col md:flex-row gap-x-32">
+      <div class="md:w-1/3 mt-6 md:mt-0">
+        <img alt="Illustration of various administrative documents and papers in purple line art style" class="w-full"
+          height="400" src="images/hola-letter.svg" width="400" />
+      </div>
+      <div class="md:w-2/3">
+        <h2 class="font-medium black font-bold text-left mb-16 text-5xl font-bold mb-16">
+          Manda un correo
+        </h2>
+        <h3 class="text-left">
+          Pretende reunir la información necesaria para realizar y facilitar los procesos administrativos
+        </h3>
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer class="mx-auto p-12 pb-24">
+    <div class="flex flex-col md:flex-row gap-8">
+      <div class="flex flex-col w-3/5">
+        <h3 class="font-bold mb-4">
+          ¡Colabora!
+        </h3>
+        <p class="mb-4">
+          Esta guía está en constante evolución, de acuerdo a las nuevas legislaciones y a las experiencias aportadas
+          por las personas que desean participar en ella. Si quieres aportar tu experiencia o comentar
+          errores/cambios/dudas, no dudes en contactar.
+        </p>
+        <h3 class="font-bold mb-4">
+          Contacta
+        </h3>
+        <div class="border-b border-black pb-1 mb-4">
+          <input class="w-full outline-none text-sm" placeholder="Manda un email" type="text" />
+        </div>
+      </div>
+      <div class="w-2/5">
+        <h3 class="font-bold mb-4">
+          Proyecto
+        </h3>
+        <p class="mb-2">
+          <a href="mailto:transpapelades@gmail.com">transpapelades@gmail.com</a>
+        </p>
+        <p class="mb-2">
+          <a href="#">Encuesta</a>
+        </p>
+        <p class="text-xs mb-2">
+          Transpapelades, 2025
+        </p>
+        <p class="text-xs mb-2">
+          Madrid, España
+        </p>
+        <p class="text-xs mb-2">
+          Creado por Alec Rodríguez
+        </p>
+        <div class="mt-4">
+          <img alt="Transpapelades logo" class="" height="120" src="images/logo-transpapelades.svg" width="250" />
+        </div>
+      </div>
+      <div class="w-1/5">
+        <h3 class="font-bold mb-4">
+          Redes
+        </h3>
+        <p class="mb-2">
+          <a href="x.com">X</a>
+        </p>
+        <p class="mb-2">
+          <a href="instagram.com">instagram</a>
+        </p>
+        <p class="mb-2">
+          <a href="youtube.com">youtube</a>
+        </p>
+        <p class="mb-2">
+          <a href="tiktok.com">tiktok</a>
+        </p>
+        <!-- <div class="mt-4">
+          <img alt="Circular black logo" class="h-10" height="50"
+            src="https://replicate.delivery/xezq/6HZk4eYdoXVITqTo7kmCAkbsMLsC7kOOC8dpDkncJFfyZSepA/out-0.png"
+            width="50" />
+        </div> -->
+      </div>
+    </div>
+  </footer>
+  <div class="py-6 px-4">
+    <h1 class="font-bold trans-pink" style="max-width: 100vw; font-size: 11.5vw !important; line-height: 2.5rem;">
+      transpapelades
+    </h1>
+
+  </div>
 </body>
+
 </html>
